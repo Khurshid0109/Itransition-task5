@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <div class="form-container mb-3">
+        <div class="form-content d-flex justify-content-between">
+            <div class="d-grid">
+                <div class="row">
+                    <label for="regionInput" class="form-label">Region</label>
+                </div>
+                <div class="row">
+                    <div class="col-xl">
+                        <select class="form-select" id="regionInput">
+                            <option value="0">Russia</option>
+                            <option value="1">United States of America</option>
+                            <option value="2">Germany</option>
+                            <option value="3">France</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl">
+                        <input type="range" class="form-range" id="errorsCountSlider" step="0.25" value="0" max="10"></input>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="errorsCountText" class="form-label">Mistakes per line</label>
+                </div>
+                <div class="row">
+                    <div class="col-xl">
+                        <input type="number" class="form-input form-control" id="errorsCountText" value="0" min="0" max="1000">
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="seedInput" class="form-label">Seed</label>
+                </div>
+                <div class="row">
+                    <div class="col-xl mt-1">
+                        <input type="text" class="form-input form-control" id="seedInput">
+                    </div>
+                    <div class="col-sm mt-1 text-end">
+                        <button type="button" class="btn btn-primary" id="randomSeed">Random seed</button>
+                    </div>
+                    <div class="col-sm mt-1 text-end">
+                        <button type="button" class="btn btn-outline-success" id="createCsv">Download exe file</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="table-responsive">
+    <table class="table table-bordered" id="dataTable">
+        <thead>
+            <tr>
+                <td>
+                    #
+                </td>
+                <td>
+                    Id
+                </td>
+                <td>
+                     FirstName
+                </td>
+                <td>
+                    LastName
+                </td>
+                <td>
+                    Gender
+                </td>
+                <td>
+                    Address
+                </td>
+                <td>
+                    Phone Number
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
