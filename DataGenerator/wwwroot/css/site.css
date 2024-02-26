@@ -15,4 +15,19 @@ html {
 
 body {
     margin-bottom: 60px;
+    background-color:silver;
+}
+
+.form-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.download{
+    background-color:lawngreen;
+}
+
+.table-bordered{
+    background-color:lightgray;
 }
