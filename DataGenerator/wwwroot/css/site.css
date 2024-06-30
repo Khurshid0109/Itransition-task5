@@ -15,19 +15,22 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color:silver;
+    background-color: black;
 }
 
-.form-container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lawngreen;
 }
 
-.download{
-    background-color:lawngreen;
+
+.download {
+    background-color: lawngreen;
 }
 
-.table-bordered{
-    background-color:lightgray;
+.table-bordered {
+    background-color: black;
+    color: lawngreen;
 }

@@ -70,11 +70,10 @@
         currentData = [];
         getData();
     }
+    
 
     window.addEventListener('scroll', async () => {
-        if (window.innerHeight + document.documentElement.scrollTop !== document.documentElement.offsetHeight) {
-            return;
-        } else {
+        if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight) {
             await getData();
         }
     });

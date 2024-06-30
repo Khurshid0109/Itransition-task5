@@ -14,4 +14,8 @@
     <ProjectReference Include="..\DataGenerator.Service\DataGenerator.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
 </Project>
