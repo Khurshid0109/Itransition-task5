@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fake Data Generator</title>
 </head>
 <body>
 
@@ -23,7 +22,7 @@
 <h2>Installation</h2>
 <pre>
 <code>git clone https://github.com/Khurshid0109/Itransition-task5
-cd yourrepository
+cd your repository
 </code>
 </pre>
 
@@ -50,7 +49,7 @@ cd yourrepository
 <p>If you have any questions or suggestions, feel free to contact me:</p>
 <ul>
     <li>Email: <a href="mailto:xurshidyoldoshev4@gmail.com">Email</a></li>
-    <li>GitHub: <a href="https://github.com/Khurshid0109">yourusername</a></li>
+    <li>GitHub: <a href="https://github.com/Khurshid0109">Khurshid</a></li>
 </ul>
 
 <h2>License</h2>
